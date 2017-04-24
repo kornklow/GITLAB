@@ -1,15 +1,13 @@
 
-/*
+/*  
  *  newBubble.c
- *
  *  Read a set of strings from a text file into a
  *  dynamically allocated array, sort the array using bubble sort
  *  and then write it to another text file. The original file
  *  includes a count of the number of strings and the maximum
  *  string size in the first line.
- *
  *  Created by Kornklow Khantilapapan
- *  7 January 2015
+ *  10 January 2016
  *
  */
 #include <stdio.h>
