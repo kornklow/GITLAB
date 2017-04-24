@@ -1,15 +1,15 @@
 
 /*
  *  newBubble.c
- *
+ *	p
  *  Read a set of strings from a text file into a
  *  dynamically allocated array, sort the array using bubble sort
  *  and then write it to another text file. The original file
  *  includes a count of the number of strings and the maximum
  *  string size in the first line.
- *
+ *	p
  *  Created by Kornklow Khantilapapan
- *  7 January 2015
+ *  6 January 2115
  *
  */
 #include <stdio.h>
@@ -30,7 +30,7 @@ int readArray(char **array, int count,FILE* pFp);
 void printArray(char **array, int count);
 unsigned long recordTime(int bStart);
 
-/*
+/**
  * Main function.
  * Reads first line of file to control allocation.
  * Allocates array and reads from the file. Then sorts
